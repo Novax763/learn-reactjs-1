@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+table {
+    border: 2px solid black;
+}
+thead {
+    background-color: rgb(34, 153, 233);
+    color: aliceblue;
+}
+
+th {
+    border: 2px solid black;
+    padding: 10px 40px;
+}
+td {
+    border: 2px solid black;
+    padding: 9px 10px;
+}

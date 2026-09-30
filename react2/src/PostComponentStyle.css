@@ -1,0 +1,13 @@
+.my-nav {
+    border: solid 5px teal;
+    padding: 5px;
+    margin: 20px;
+    h2 {
+        padding: 20px 0px 20px 0px;
+        text-align: center;
+    }
+    p {
+        text-align: center;
+        padding: 20px 0px 20px 0px;
+    }
+}

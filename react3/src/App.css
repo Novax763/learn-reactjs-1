@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.my-btn{
+    padding: 10px;
+    margin: 10px;
+    background-color: purple;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+.my-btn:hover {
+    background-color: rgb(88, 0, 88);
+}

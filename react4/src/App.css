@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.my-botton {
+    transition: all .5s ease;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px black;
+}
+.my-botton:hover {
+    background-color: rgb(48, 5, 48);
+    transform: scale(1.1);
+}
