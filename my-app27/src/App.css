@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: A;
+    src: url("/public/fontSize/Vazirmatn-Bold.ttf");
+    font-weight: bold;
+}
+@font-face {
+    font-family: A;
+    src: url("/public/fontSize/Vazirmatn-Black.ttf");
+    font-weight: 900;
+}
+@font-face {
+    font-family: A;
+    src: url("/public/fontSize/Vazirmatn-Light.ttf");
+    font-weight: 200;
+}
+@font-face {
+    font-family: A;
+    src: url("/public/fontSize/Vazirmatn-Regular.ttf");
+    font-weight: normal;
+}
+

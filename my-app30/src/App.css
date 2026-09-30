@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #263238;
+}
+/*  CUSTOM FONTS */
+@font-face {
+    font-family: A;
+    src: url("/public/fontSize/IBM/IBMPlexSansArabic-Bold.ttf");
+    font-weight: bold;
+}
+@font-face {
+    font-family: A;
+    src: url("/public/fontSize/IBM/IBMPlexSansArabic-Regular.ttf");
+    font-weight: 500; 
+} 
+@font-face {
+    font-family: A;
+    src: url("/public/fontSize/IBM/IBMPlexSansArabic-Medium.ttf");
+    font-weight: 600;
+}
+@font-face {
+    font-family: A;
+    src: url("/public/fontSize/IBM/IBMPlexSansArabic-Light.ttf");
+    font-weight: 400;
+} 
+
+
+

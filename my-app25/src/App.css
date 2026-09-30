@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.iconsButton {
+    transition: all 0.2s ease !important;
+}
+.iconsButton:hover {
+    background-color: rgb(211, 211, 211) !important;
+    box-shadow: 0px 7px 7px rgb(0, 0, 0, 0.4) ;
+}
+.cardContentTodo {
+    transition: all .2s ease !important;
+}
+.cardContentTodo:hover {
+    padding: 20px 0px ;
+    box-shadow: 0px 7px 7px rgb(0, 0, 0, 0.4) ;
+
+}
+/*  CUSTOM FONTS */
+@font-face {
+    font-family: A;
+    src: url("/public/fontSize/Vazirmatn-Bold.ttf");
+    font-weight: bold;
+}
+@font-face {
+    font-family: A;
+    src: url("/public/fontSize/Vazirmatn-Black.ttf");
+    font-weight: 900;
+}
+@font-face {
+    font-family: A;
+    src: url("/public/fontSize/Vazirmatn-Light.ttf");
+    font-weight: 200;
+}
+@font-face {
+    font-family: A;
+    src: url("/public/fontSize/Vazirmatn-Regular.ttf");
+    font-weight: normal;
+}
+
+
+/* ======  CUSTOM FONTS ===== */
+
+/* RESPONSIVE */
+
+
+@media (min-width: 100px) and (max-width: 600px) {
+    .hei {
+        max-height: 90vh !important;
+    }
+    .my-task {
+        font-size: 50px !important;
+    }
+    .cardContentTodo {
+        width: 100%;
+    }
+    .titl {
+        font-size: 24px !important;
+    }
+    .bod {
+        font-size: 15px;
+    }
+    .ico {
+        justify-content: space-around !important;
+    }
+    .button {
+        width: 290px !important;
+    }
+    /* .cont {
+        width: ;
+    } */
+}
